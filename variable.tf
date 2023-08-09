@@ -3,9 +3,9 @@ provider "aws" {
         access_key              ="AKIAZWQNTFDD6Y7DS64D"
         secret_key              ="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"
         }
-variable "name" {
-  default = "rajartechdev"
+variable "ami" {
+  default = "ami-0763cf792771fe1bd"
 }
-variable "name" {
-  default = "rajartechdev"
+variable "instace_type" {
+  default = "t2.micro"
 }
